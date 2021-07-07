@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./utils.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./contact.css">
+    <link rel="stylesheet" href="./mobile.css">
+    <title>iBlog - Heaven for bloggers</title>
+    <link rel="stylesheet" href="./cheetsheet.css">
+    <script src="./cheatsheet.js"></script>
+</head>
+<body>
+    <nav class="navigation max-width-1 m-auto">
+        <div class="nav-left">
+            <a href="./index.html">
+                <span><img src="./logo.png" width="94px" alt="""></span>
+            </a>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <form action="./search.html" method="get">
+                <input class="form-input" type="text" name="query" placeholder="Article Search">
+                <button class="btn">Search</button>
+            </form>
+
+        </div>
+
+    </nav>
+    <div class="max-width-1 m-auto">
+        <hr>
+    </div>
+    <div class="contact-content font1 max-width-1 m-auto">
+        <div class="max-width-1 m-auto mx-1">
+            <h2>Feel Free to Contact Us</h2>
+            <div class="contact-form">
+                <div class="form-box">
+
+                    <input type="text" placeholder="Enter Your Name" required>
+                </div>
+                <div class="form-box">
+                    <input type="number" placeholder="Enter Your Phone Number" required >
+                </div>
+                
+                <div class="form-box">
+                    <input type="number" placeholder="Enter Your age" required min="9" max="100">
+                </div>
+                <div class="form-box">
+                    <input type="email" placeholder="Enter Your Email Id" required>
+                </div>
+                <div class="form-box">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="How may we help you?" required></textarea>
+                </div>
+                <div class="form-box">
+                    <button class="btn" onclick="submit()">Submit</button>
+                </div>
+   
+
+            </div>
+        </div>
+
+    </div>
+ 
+
+   
+
+    <div class="footer">
+        <p>Copyright © ArticleWithNeeraj.com</p>
+
+    </div>
+    <script>
+function submit(){
+    alert("Your form has been submitted successfully")
+}
+    </script>
+</body>
+</html>
